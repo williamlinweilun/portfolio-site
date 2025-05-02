@@ -41,7 +41,7 @@ body {
 }
 
 h1 {
-    font-family: 'MonaSansCondensed-Bold';
+    font-family: 'MonaSansCondensed-Bold', sans-serif;
     font-size: 3.5rem;
     text-transform: uppercase;
     margin-top: 1rem;
@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Humane';
+    font-family: 'Humane', serif;
     font-size: 9rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -94,7 +94,7 @@ header::after {
 .site-navigation ul {
     list-style: none;
     padding-left: 0;
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     text-transform: uppercase;
     font-size: 3rem;
     text-align: center;
@@ -199,7 +199,7 @@ a:active {
 
 /* FOOTER */
 footer {
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     color:#A5BBA7;
     background-color: #1E2D24;
     font-size: 2rem;
@@ -217,7 +217,6 @@ footer {
     position: relative;
 }
 
-/* FIXME: */
 .scrolling-text {
     display: flex;
     animation: scrollText 10s linear infinite;
@@ -256,7 +255,7 @@ footer {
 }
 
 .introduction p {
-    font-family: 'PPNeueMontreal-Medium';
+    font-family: 'PPNeueMontreal-Medium', sans-serif;
     text-transform: uppercase;
     color: #A5BBA7;
     text-align: center;
@@ -282,20 +281,20 @@ footer {
 }
 
 .featured-works h3 {
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     text-transform: uppercase;
     font-size: 3rem;
     text-align: center;
 }
 
 .featured-works-bold {
-    font-family: 'PPNeueMontreal-Medium';
+    font-family: 'PPNeueMontreal-Medium', sans-serif;
     text-align: center;
     margin-top: -2rem;
 }
 
 .featured-works-regular {
-    font-family: 'PPNeueMontreal-Book';
+    font-family: 'PPNeueMontreal-Book', sans-serif;
     text-align: center;
 }
 
@@ -315,7 +314,7 @@ footer {
 }
  
 .see-more a {
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     text-transform: uppercase;
     font-size: 1.5rem;
     padding: .5rem 5rem;
@@ -332,7 +331,7 @@ footer {
 
 .pill {
     list-style: none;    
-    font-family: 'MonaSansCondensed-Regular';
+    font-family: 'MonaSansCondensed-Regular', sans-serif;
     text-transform: uppercase;
     border: 1px solid #1E2D24;
     background: #1E2D24;
@@ -357,7 +356,7 @@ footer {
 
 .contact p {
     text-transform: uppercase;
-    font-family: 'PPNeueMontreal-Book';
+    font-family: 'PPNeueMontreal-Book', sans-serif;
     color: #A5BBA7;
     text-align: center;
 }
@@ -377,7 +376,7 @@ footer {
 .contact li a {
     border: solid 1px #A5BBA7;
     border-radius: 10px;
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold',sans-serif;
     text-transform: uppercase;
     font-size: 4rem;
     /* padding: 0 5rem; */
@@ -544,7 +543,7 @@ footer {
 }
 
 .single-project-background p {
-    font-family: 'PPNeueMontreal-Book';
+    font-family: 'PPNeueMontreal-Book', sans-serif;
     color: #A5BBA7;
     margin-top: -7rem;
     padding: 0 1rem;
@@ -556,7 +555,7 @@ footer {
     list-style: none;
     padding-left: 0;
     color: #1E2D24;
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     font-size: 1.5rem;
     display: flex; 
     flex-wrap: wrap;
@@ -591,7 +590,7 @@ footer {
 }
 
 .tools-used li {
-    font-family: 'MonaSansCondensed-Regular';
+    font-family: 'MonaSansCondensed-Regular', sans-serif;
     text-transform: uppercase;
     font-size: 1.3rem;
     border: 1px solid #1E2D24;
@@ -674,7 +673,7 @@ footer {
 }
 
 .about p {
-    font-family: 'PPNeueMontreal-Book';
+    font-family: 'PPNeueMontreal-Book', sans-serif;
     font-size: 1.2rem;
     padding: 0 1rem;
 }
@@ -698,7 +697,7 @@ footer {
 }
 
 .about-tech-stack li {
-    font-family: 'MonaSansCondensed-Regular';
+    font-family: 'MonaSansCondensed-Regular', sans-serif;
     text-transform: uppercase;
     font-size: 1.5rem;
     border: solid 1px #1E2D24;
@@ -750,7 +749,7 @@ footer {
 .about-contact li a {
     border: solid 1px #A5BBA7;
     border-radius: 10px;
-    font-family: 'MonaSansCondensed-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold', sans-serif;
     text-transform: uppercase;
     font-size: 4rem;
 }
