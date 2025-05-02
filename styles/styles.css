@@ -577,6 +577,10 @@ footer {
     background-color: #A5BBA7;
 }
 
+.palm-springs-text-adjust p {
+    text-align: center;
+}
+
 .tools-used ul {
     list-style: none;
     padding-left: 0;
