@@ -66,12 +66,7 @@ header {
     z-index: 99999;
     top: 0;
     position: fixed;
-    /* background-image: url("../images/pexels-catiamatos-1072179.jpg");  */
-    /* height: 6rem; */
-    /* background-size: cover; */
-    /* filter: brightness(0.5) opacity(0.9); */
-    border-radius: 0 0 3px 3px;
-    /* backdrop-filter: opacity(40%); */
+    /* border-radius: 0 0 3px 3px; */
 }
 
 header::after {
@@ -85,19 +80,8 @@ header::after {
     filter: opacity(90%) brightness(50%);
     z-index: 9999;
     height: 6rem;
+    background-position: top;
 }
-
-/* .navigation-bar-image {
-    background-image: url("../images/pexels-catiamatos-1072179.jpg"); 
-    position: fixed;
-    z-index: 999999;
-    width: 100%;
-    height: 6rem;
-    top: 0;
-    background-size: cover;
-    filter: brightness(0.5) opacity(0.9);
-    border-radius: 0 0 3px 3px;
-} */
 
 .menu-toggle {
     position: absolute;
@@ -106,7 +90,6 @@ header::after {
     z-index: 99999999;
     background-color: transparent;
     border: none;
-    
 }
 
 .site-navigation ul {
@@ -157,6 +140,34 @@ a:active {
     text-decoration: none;
 }
 
+@media (min-width: 50em){
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .site-navigation ul {
+        padding: 0;
+        top: 0;
+        right: 0;
+        z-index: 999999999;
+        background-color: transparent;
+        font-size: 1.5rem;;
+        gap: 0;
+        padding-right: 2rem;
+    }
+
+    .site-navigation li {
+        padding: .8rem 1rem;
+    }
+
+
+}
+
 /* FONTS */
 
 .front-end-dev {
@@ -168,7 +179,12 @@ a:active {
     margin-top: 15rem;
     padding: 0 1rem;
     letter-spacing: 1px;
+}
 
+@media (min-width: 36.6875em) {
+    .front-end-dev {
+        font-size: 10rem;
+    }
 }
 
 /* FOOTER */
@@ -217,7 +233,6 @@ footer {
     width: 100%;
     height: 50rem;
     position: absolute;
-    /* background-color: #1F1F1FCC; */
     background-image: url("../images/pexels-catiamatos-1072179.jpg"); 
     background-size: cover;
     filter: brightness(.6);
@@ -365,6 +380,13 @@ footer {
     color:#1E2D24;
 }
 
+@media (min-width: 36.6875em) {
+    /* .introduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+}
 
 /* SINGLE PROJECT PAGE */
 
