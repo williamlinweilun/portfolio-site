@@ -1,25 +1,64 @@
-@font-face {
-    font-family: 'Humane';
-    src: url('/fonts/Humane-Regular.woff2') format('woff2'),
-         url('/fonts/Humane-Regular.woff') format('woff'), 
-         url('/fonts/Humane-Regular.ttf') format('truetype');
+/* Webfont: Humane-Regular */@font-face {
+    font-family: 'Humane-Regular';
+    src: url('/fonts/Humane-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('/fonts/Humane-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Humane-Black */@font-face {
+    font-family: 'Humane-Black';
+    src: url('/fonts/Humane-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('/fonts/Humane-Black.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Humane-Bold */@font-face {
+    font-family: 'Humane-Bold';
+    src: url('/fonts/Humane-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('/fonts/Humane-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Humane-ExtraBold */@font-face {
+    font-family: 'Humane-ExtraBold';
+    src: url('/fonts/Humane-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('/fonts/Humane-ExtraBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Mona-Regular';
+    font-family: 'Mona Sans';
+    src:
+      url('Mona-Sans.woff2') format('woff2 supports variations'),
+      url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }  
+
+@font-face {
+    font-family: 'MonaSansCondensed-Regular';
     src: url('/fonts/MonaSansCondensed-Regular.woff2') format('woff2'), 
          url('/fonts/MonaSansCondensed-Regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Mona-SemiBold';
+    font-family: 'MonaSansCondensed-SemiBold';
     src: url('/fonts/MonaSansCondensed-SemiBold.woff2') format('woff2'),
          url('/fonts/MonaSansCondensed-SemiBold.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Mona-Bold';
-    src: url('/fonts/MonaSansCondensed-Bold.otf') format('otf');
+    font-family: 'MonaSansCondensed-Bold';
+    src: url('/fonts/MonaSansCondensed-Bold.woff2') format('woff2'),
+         url('/fonts/MonaSansCondensed-Bold.woff') format('woff2'),
 }
 
 @font-face {
@@ -51,7 +90,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Humane', serif;
+    font-family: 'Humane-Bold', serif;
     font-size: 9rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -170,7 +209,7 @@ a:active {
 
 /* HEADING FONT */
 .front-end-dev {
-    font-family: 'Humane';
+    font-family: 'Humane-Bold', sans-serif;
     color: #FFB347;
     text-transform: uppercase;
     font-size: 6rem;
@@ -178,6 +217,7 @@ a:active {
     margin-top: 15rem;
     padding: 0 1rem;
     letter-spacing: 1px;
+    font-weight: 700;
 }
 
 @media (min-width: 36.6875em) {
@@ -528,7 +568,7 @@ footer {
 }
 
 .single-project-page h3 {
-    font-family: 'Humane';
+    font-family: 'Humane-Bold', sans-serif;
     text-transform: uppercase;
     font-size: 5.5rem;
     color: #1E2D24;
@@ -665,7 +705,7 @@ footer {
 }
 
 .about h3 {
-    font-family: 'Humane';
+    font-family: 'Humane-Bold';
     font-weight: 900;
     font-size: 9rem;
     text-transform: uppercase;
