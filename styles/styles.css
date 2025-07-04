@@ -645,9 +645,15 @@ p {
     border-radius: 5px;
 }
 
-.the-outcome {
+.bullet-points li {
+    font-family: 'PPNeueMontreal-Book';
+    line-height: 1.6;
+}
+
+.the-challenge {
     padding-bottom: 6rem;
 }
+
 
 @media (min-width: 62.5em) {
     .single-project-background video {
@@ -689,6 +695,10 @@ p {
     .the-outcome p {
         max-width: 50rem;
         margin: 0 auto;
+    }
+
+    .bullet-points li {
+        font-size: 1.2rem;
     }
 }
 
