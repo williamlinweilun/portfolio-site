@@ -645,8 +645,13 @@ p {
     border-radius: 5px;
 }
 
+.bullet-points {
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
 .bullet-points li {
-    font-family: 'PPNeueMontreal-Book';
+    font-family: 'PPNeueMontreal-Book', sans-serif;
     line-height: 1.6;
 }
 
