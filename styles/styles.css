@@ -98,6 +98,12 @@ h2 {
     text-align: center;
 }
 
+/* CURSOR IMAGE */
+#cursor-img {
+    height: 5.5rem;
+    position: fixed;
+}
+
 /* SITE NAVIGATION */
 
 header {
